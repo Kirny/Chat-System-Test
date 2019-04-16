@@ -1,0 +1,23 @@
+{
+  "name": "express-chat-server",
+  "version": "1.0.0",
+  "description": "Playground for socket IO",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kirny/Chat-System-Test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kirny/Chat-System-Test/issues"
+  },
+  "homepage": "https://github.com/Kirny/Chat-System-Test#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}
