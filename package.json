@@ -4,7 +4,8 @@
   "description": "Playground for socket IO",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+		"initialize": "concurrently \"npm start\" \"cd chat-system-test-client && npm start\""
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/Kirny/Chat-System-Test#readme",
   "dependencies": {
+    "concurrently": "^4.1.0",
     "express": "^4.16.4",
     "socket.io": "^2.2.0"
   }
