@@ -36,7 +36,7 @@ class App extends Component {
       <div className="App">
 				<Launcher
 					agentProfile={{
-						teamName: 'react-chat-window',
+						teamName: 'Friend Chat',
 						imageUrl: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0001-34.png'
 					}}
 					onMessageWasSent={this._onMessageWasSent.bind(this)}
